@@ -1,5 +1,5 @@
-# Ex09 Event Registration Web Application
-## Date:
+## Ex09 Event Registration Web Application
+## Date:09-11-2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -33,140 +33,329 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-...
-HOME PAGE 
-<!-- Frame: Board -->
-<div class="frame board-77b8f5173f4d">
-    <!-- WhatsApp Image -->
-    <div class="shape rect whats-app-i-77b90fe0adad"></div>
-
-    <!-- Screenshot -->
-    <div class="shape rect screenshot-77b965d11581"></div>
-    <div class="shape rect screenshot-77b990c64892"></div>
-
-    <!-- Rectangle -->
-    <div class="shape rect rectangle-77b9af8eb195">
-        <svg width="172" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="408 412 172 45" fill="none">
-            <g>
-                <rect x="410" y="414" width="168" height="41" style="fill:#09ecf3;fill-opacity:0.625"></rect>
-                <rect x="410" y="414" width="168" height="41" style="stroke:#e4c80d;stroke-width:2"></rect>
-            </g>
-        </svg>
-    </div>
-
-    <!-- LOGIN Text -->
-    <div class="shape text 77baf98d9f6e">
-        <div style="color:#0e1ef8; font-size:16px; font-weight:bold;">LOGIN</div>
-    </div>
-
-    <!-- REGISTE NO Text -->
-    <div class="shape text 77bb8ce4ce2a">
-        <div style="color:#054def; font-size:16px; font-weight:bold;">REGISTE NO</div>
-    </div>
+```
+PAGE-1
+<div class="container--0-">
+  <img
+    src="data:image/png"/>
+  <div class="text-0-1-2">
+    SAVEETHA CHARITY <br />
+    CONNECT 2025
+  </div>
+  <svg
+    width="479"
+    height="66"
+    viewBox="0 0 479 66"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="479" height="66" fill="#B58ADD"></rect></svg
+  ><svg
+    width="479"
+    height="65"
+    viewBox="0 0 479 65"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="479" height="65" fill="#B58ADD"></rect></svg>
+    <svg
+    width="292"
+    height="67"
+    viewBox="0 0 292 67"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect width="292" height="67" fill="#B58ADD"></rect>
+  </svg>
+  <div class="text-0-1-6">USERNAME</div>
+  <div class="text-0-1-7">PASSWORD</div>
+  <div class="text-0-1-8">LOGIN</div>
+  <div class="text-0-1-9">Together, we can make a difference.</div>
 </div>
 
-page 2
-<div class="frame board">
-  <div class="shape text">
-    <div class="text-node-html">
-      <div class="root rich-text">
-        <div class="paragraph-set">
-          <p class="paragraph"><span style="color:rgba(5, 57, 241, 1);font-size:16px;font-weight:bold">SPORTS DAYS FESTIVAL</span></p>
-          <p class="paragraph"><span style="color:rgba(5, 57, 241, 1);font-size:16px;font-weight:bold">EVENTS FOR SPORTS DAY</span></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shape text">
-    <div class="text-node-html">
-      <div class="root rich-text">
-        <div class="paragraph-set">
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#CRICKET</span></p>
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#BADMINTON</span></p>
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#VOLLEY BALL</span></p>
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#100 MTS</span></p>
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#200 MTS</span></p>
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#400 MTS</span></p>
-          <p class="paragraph"><span style="color:rgba(220, 5, 239, 1);font-size:18px;font-weight:bold">#4-100 RELAY</span></p>
-        </div>
-      </div>
-    </div>
+PAGE-2
+<div class="container--0-">
+  <img
+    src="data:image/png"
+  />
+  <div class="text-0-1-2">EVENTS</div>
+  <div class="text-0-1-3">
+    →Blood Donation Camp<br />→Tree Plantation <br />→Food Donation Program<br />→Awareness
+    Rally (Health/Education)<br />→Clean Campus Drive<br />→Stationery
+    Collection for Children
   </div>
 </div>
-
-page 3
-<!-- Event Registration Form -->
-<div class="event-registration-form">
-  <h1 style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">EVENT REGISTRATION FORM</h1>
-  <h2 style="color:#c0ef05; font-size:14px; font-family:sourcesanspro; font-weight:bold;">(FILL THE DETAILS)</h2>
-  
-  <!-- Full Name -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">FULL NAME</label>
-  <input type="text" class="form-control" />
-
-  <!-- Gender -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">GENDER</label>
-  <input type="text" class="form-control" />
-
-  <!-- Register No -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">REGISTER NO</label>
-  <input type="text" class="form-control" />
-
-  <!-- Department -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">DEPARTMENT</label>
-  <input type="text" class="form-control" />
-
-  <!-- Phone No -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">PHONE NO</label>
-  <input type="text" class="form-control" />
-
-  <!-- Email ID -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">EMAIL ID</label>
-  <input type="email" class="form-control" />
-
-  <!-- Event for Register -->
-  <label style="color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">EVENT FOR REGISTER</label>
-  <input type="text" class="form-control" />
-
-  <!-- Register Button -->
-  <button style="color:#fff; background-color:#c0ef05; font-family:sourcesanspro; font-weight:bold;">REGISTER</button>
+.container--0- {
+  position: absolute;
+  left: 598px;
+  top: -665px;
+  width: 692px;
+  height: 1530px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-2 {
+  width: 572px;
+  height: 92px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Mochiy Pop P One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-3 {
+  width: 599px;
+  height: 828px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Moulpali, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+PAGE-3
+<div class="container--0-">
+  <img
+    src="data:image/png"/>
+  <div class="text-0-1-3">
+    EVENT REGISTRATION <br />
+    FORM
+  </div>
+  <svg
+    width="591"
+    height="90"
+    viewBox="0 0 591 90"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="591" height="90" fill="#88AECA"></rect></svg
+  ><svg
+    width="591"
+    height="90"
+    viewBox="0 0 591 90"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="591" height="90" fill="#88AECA"></rect>
+  </svg>
+  <div class="text-0-1-6"></div>
+  <svg
+    width="591"
+    height="90"
+    viewBox="0 0 591 90"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width="591"
+      height="90"
+      transform="matrix(1 0 0 -1 0 90)"
+      fill="#88AECA"
+    ></rect></svg
+  ><svg
+    width="591"
+    height="90"
+    viewBox="0 0 591 90"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="591" height="90" fill="#88AECA"></rect></svg
+  ><svg
+    width="591"
+    height="92"
+    viewBox="0 0 591 92"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="591" height="92" fill="#88AECA"></rect>
+  </svg>
+  <div class="text-0-1-10">NAME</div>
+  <div class="text-0-1-11">REGISTER NO</div>
+  <div class="text-0-1-12">DEPARTMENT</div>
+  <div class="text-0-1-13">PHONE NUMBER</div>
+  <div class="text-0-1-14">EMAIL ID</div>
+  <svg
+    width="591"
+    height="92"
+    viewBox="0 0 591 92"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="591" height="92" fill="#88AECA"></rect>
+  </svg>
+  <div class="text-0-1-16">SELECT EVENT</div>
+  <svg
+    width="312"
+    height="100"
+    viewBox="0 0 312 100"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="312" height="100" fill="#88AECA"></rect>
+  </svg>
+  <div class="text-0-1-18">SUBMIT</div>
+</div>
+.container--0- {
+  position: absolute;
+  left: 1368px;
+  top: -665px;
+  width: 692px;
+  height: 1530px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-3 {
+  width: 726px;
+  height: 178px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Mochiy Pop P One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-6 {
+  width: 473px;
+  height: 44px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Mochiy Pop P One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-10 {
+  width: 473px;
+  height: 44px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-11 {
+  width: 485px;
+  height: 54px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-12 {
+  width: 501px;
+  height: 64px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-13 {
+  width: 492px;
+  height: 38px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-14 {
+  width: 503px;
+  height: 68px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-16 {
+  width: 544px;
+  height: 70px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-18 {
+  width: 253px;
+  height: 73px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+PAGE-4
+<div class="container--0-">
+  <img
+    src="data:image/png"/>
+  <div class="text-0-1-2">
+    Thank you for registering with Saveetha Charity Connect 2025!<br />
+  </div>
+  <div class="text-0-1-3">
+    Email: saveetha.charityevent@gmail.com<br />Phone: +91 XXXXX XXXXX
+  </div>
+  <div class="text-0-1-4">CONTACT:</div>
 </div>
 
+.container--0- {
+  position: absolute;
+  left: 2116px;
+  top: -665px;
+  width: 692px;
+  height: 1530px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-0-1-2 {
+  width: 679px;
+  height: 226px;
+  color: #000000;
+  font-size: 48px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-3 {
+  width: 679px;
+  height: 356px;
+  color: #000000;
+  font-size: 40px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-0-1-4 {
+  width: 452px;
+  height: 50px;
+  color: #000000;
+  font-size: 40px;
+  font-family: Marko One, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
 
-page 4
-<div class="frame board">
-  <div class="shape rect whats-app-image"></div>
-  <div class="shape rect screenshot"></div>
-  
-  <div class="shape text">
-    <div class="text-node-html">
-      <div style="display: flex; white-space: break-spaces; align-items: flex-start;">
-        <div>
-          <p style="color: #e60635; font-size: 24px; font-family: sourcesanspro; font-weight: bold;">THANK YOU</p>
-          <p style="color: #eae706; font-size: 16px; font-family: sourcesanspro; font-weight: bold;">WE are all eagerly waiting</p>
-          <p style="color: #eae706; font-size: 16px; font-family: sourcesanspro; font-weight: bold;">for your participants in sports event</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="shape text">
-    <div class="text-node-html">
-      <div style="display: flex; white-space: break-spaces; align-items: flex-start;">
-        <div>
-          <p style="color: #ea0643; font-size: 18px; font-family: sourcesanspro; font-weight: bold;">CONTACT US</p>
-          <p style="color: #ea0643; font-size: 14px; font-family: sourcesanspro; font-weight: bold;">EMAIL ID: K.SVAEETHAENGICOLLOGE123@GMAIL.COM</p>
-          <p style="color: #ea0643; font-size: 14px; font-family: sourcesanspro; font-weight: bold;">PHONE: 919057392039, 918598493902</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-...
+```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-23 110927-1.png>)
+<img width="1259" height="699" alt="image" src="https://github.com/user-attachments/assets/15d06649-041a-4f66-ab46-83f4afa0d0cb" />
+
+
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
